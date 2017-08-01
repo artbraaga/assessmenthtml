@@ -1,0 +1,50 @@
+@media(max-width: 320px) {
+	
+	.container {
+		width: 96%;
+	}
+	
+	header h1 {
+		text-align: center;
+	}
+	
+	.sacola {
+		display: none;
+	}
+	
+	.menu-principal {
+		position: static;
+		text-align: center;
+	}
+	
+	.menu-principal ul li {
+		display: inline;
+		margin: 5px;
+	}
+	
+	.busca, 
+	.menu-departamentos, 
+	.destaque {
+		margin-right: 0;
+		width: 100%;
+	}
+	
+	.painel {
+		width: 100%;
+	}
+	
+	.painel li {
+		width: 30%;
+	}
+	
+	.painel img {
+		width: 100%;
+	}
+	
+	.painel-novidades{
+		width: 100%;
+	}
+	.painel-mais-vendidos{
+		width: 100%;
+	}
+}
